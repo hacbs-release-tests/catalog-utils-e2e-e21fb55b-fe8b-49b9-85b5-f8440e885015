@@ -108,7 +108,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: collect-index-images
-      image: quay.io/konflux-ci/release-service-utils@sha256:7b8128d385ed3ec6b2792a43b9dbdaf6963e57385b41284495df731687891d50
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:d6f41902f70bb6c634419dec1bab1e3ae51b8abeea74968b8104fa55af97db31
       computeResources:
         limits:
           memory: 128Mi

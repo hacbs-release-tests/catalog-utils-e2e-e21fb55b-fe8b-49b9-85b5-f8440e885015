@@ -120,7 +120,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: send-message
-      image: quay.io/konflux-ci/release-service-utils@sha256:decbbc2eeb4f125079eeeab65d03ec4b363adfae97154c4c096a0521d2dc039c
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:d6f41902f70bb6c634419dec1bab1e3ae51b8abeea74968b8104fa55af97db31
       computeResources:
         limits:
           memory: 256Mi

@@ -94,7 +94,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: check-labels
-      image: quay.io/konflux-ci/release-service-utils@sha256:8ac7a9b0bb623775eca570edef8a0fc34f693f50a7e0a50547a4e496875d68b9
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:d6f41902f70bb6c634419dec1bab1e3ae51b8abeea74968b8104fa55af97db31
       computeResources:
         limits:
           memory: 128Mi

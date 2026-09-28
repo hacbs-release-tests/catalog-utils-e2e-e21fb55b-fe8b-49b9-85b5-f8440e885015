@@ -129,7 +129,7 @@ spec:
         - name: caCertPath
           value: $(params.caCertPath)
     - name: push-snapshot
-      image: quay.io/konflux-ci/release-service-utils@sha256:436b54bee56d4cee1a1c635784f6b0fcb676399f974fecfbb1506d25bace4b40
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:d6f41902f70bb6c634419dec1bab1e3ae51b8abeea74968b8104fa55af97db31
       computeResources:
         limits:
           memory: 1280Mi
